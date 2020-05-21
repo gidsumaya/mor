@@ -9,18 +9,18 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>1236</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|19636|19638|1
-sequence|table|19550|19552|1
-sequence|table|19540|19542|1
-sequence|table|19558|19560|1
+      <Relations>sequence|table|19576|19578|1
 sequence|table|19568|19570|1
-sequence|table|19576|19578|1
-sequence|table|19687|19689|1
 sequence|table|19695|19697|1
+sequence|table|19687|19689|1
 sequence|table|19679|19681|1
+sequence|table|19636|19638|1
+sequence|table|19511|19513|1
+sequence|table|19558|19560|1
+sequence|table|19550|19552|1
 sequence|table|19532|19534|1
 sequence|table|19522|19524|1
-sequence|table|19511|19513|1
+sequence|table|19540|19542|1
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">

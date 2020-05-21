@@ -1,12 +1,14 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, redirect
 from device.models import Rainfall
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView
 from .models import Mobile, Sms
 import csv
 import io
 from django.contrib import messages
 import boto3
+
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def mobile_upload(request):
@@ -88,17 +90,8 @@ def send_sms(request):
     return HttpResponseRedirect('/advisory/')
 
 
-def Reports(request):
+def reports(request):
     return HttpResponse('Reports')
-
-
-class HomeView(TemplateView):
-    template_name = 'home.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["qs"] = Rainfall.objects.all()
-        return context
 
 
 class MobileView(TemplateView):
@@ -107,4 +100,17 @@ class MobileView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["adv"] = Mobile.objects.all()
+        return context
+
+
+class ResView(ListView):
+    model = Rainfall
+    template_name = 'home.html'
+    context_object_name = 'res'
+    paginate_by = 8
+    queryset = Rainfall.objects.all().order_by('-id')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["qs"] = Rainfall.objects.all()
         return context

@@ -11,7 +11,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mor" />
   </component>
   <component name="ProjectId" id="1YwMnTfU0JUp5pLxXlQb21cu50Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,10 +26,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.mobile_add.html">
-    <configuration name="mobile_add.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mdrrmo/templates/mobile_add.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="mdrrmo" type="Python.DjangoServer" factoryName="Django server">
       <module name="mdrrmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,11 +50,6 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.mobile_add.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
@@ -109,7 +101,22 @@
       <workItem from="1585682551072" duration="17000" />
       <workItem from="1587535002046" duration="1351000" />
       <workItem from="1587537161183" duration="22000" />
-      <workItem from="1587537423674" duration="149000" />
+      <workItem from="1587537367988" duration="54000" />
+      <workItem from="1588095798282" duration="154000" />
+      <workItem from="1588095959998" duration="81000" />
+      <workItem from="1588096049511" duration="1276000" />
+      <workItem from="1588273034100" duration="609000" />
+      <workItem from="1588356775595" duration="1223000" />
+      <workItem from="1588530490772" duration="793000" />
+      <workItem from="1588601363685" duration="606000" />
+      <workItem from="1589627553353" duration="1781000" />
+      <workItem from="1589869021726" duration="600000" />
+      <workItem from="1589879179446" duration="8529000" />
+      <workItem from="1589895446789" duration="9422000" />
+      <workItem from="1589912526148" duration="3498000" />
+      <workItem from="1589957021938" duration="569000" />
+      <workItem from="1589982200275" duration="1754000" />
+      <workItem from="1589996319182" duration="9522000" />
     </task>
     <servers />
   </component>
@@ -119,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/mor" />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
@@ -126,10 +134,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583861054113" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583866914120">
+    <state x="552" y="178" key="#Notifications" timestamp="1588095851130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583866914120" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588095851130" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588095869245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588095869245" />
     <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583921198505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,25 +150,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584033783611" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587536351549">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587537420607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587536351549" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587537434401">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587537420607" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1588096033434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587537434401" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588096033434" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587535868949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587535868948" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585682554731">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589996325055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585682554731" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589996325055" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587535792766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587535792766" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589897216842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589897216842" />
   </component>
 </project>
