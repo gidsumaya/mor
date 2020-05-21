@@ -17,6 +17,4 @@ Go to: http://127.0.0.1/8000
 
 1. Set Live graph (by hour, by day, by month).
 2. Set Reports for records (by week, by month, by year) 
-3. Set Prediction (by day, by level)
-
-4. Set docker
+3. Set docker
